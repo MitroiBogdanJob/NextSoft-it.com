@@ -106,7 +106,7 @@ export default function WebsitePage() {
 				"Design responsive modern",
 				"Până la 5 pagini",
 				"Formular de contact",
-				"Optimizare SEO de bază",
+				"Optimizare SEO",
 				"Integrare social media",
 				"12 luni găzduire gratuită",
 				"3 luni mentenanță gratuită",
@@ -143,10 +143,10 @@ export default function WebsitePage() {
 				"Pagini nelimitate",
 				"Design premium personalizat",
 				"Funcționalități avansate",
-				"Optimizare SEO completă",
+				"Optimizare SEO",
 				"Integrare cu sisteme terțe",
-				"Securitate avansată",
-				"Consultanță marketing digital",
+				"Securitate",
+				"Funcționalități noi la cerere",
 			],
 			cta: "Solicită Ofertă",
 			popular: false,
@@ -168,7 +168,7 @@ export default function WebsitePage() {
 				"Integrare social media",
 				"Panou de administrare basic",
 				"12 luni găzduire gratuită",
-				"12 luni mentenanță gratuită",
+				"3 luni mentenanță gratuită",
 			],
 			cta: "Solicită Ofertă",
 			popular: false,
@@ -929,3 +929,4 @@ export default function WebsitePage() {
 		</div>
 	);
 }
+
