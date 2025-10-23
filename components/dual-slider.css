@@ -1,0 +1,53 @@
+.container-card {
+	margin-bottom: 1.5rem;
+	position: relative;
+	height: 15vh;
+}
+
+
+.card-item {
+	position: relative;
+	height: 15vh;
+	flex-shrink: 0;
+	margin-left: 1vw;
+	margin-right: 1vw;
+}
+
+@media (max-width: 768px) {
+	.container-card,
+	.card-item {
+		height: 10vh;
+	}
+	.card-image {
+		/* Înălțime implicită pentru mobil */
+		height: 10vh;
+	}
+}
+
+@media (max-width: 480px) {
+	.container-card,
+	.card-item {
+		height: 7vh;
+	}
+	.card-image {
+		/* Înălțime implicită pentru mobil */
+		height: 10vh;
+	}
+}
+
+@media (max-width: 375px) {
+	.container-card,
+	.card-item {
+		height: 5vh;
+	}
+	.card-image {
+		/* Înălțime implicită pentru mobil */
+		height: 10vh;
+	}
+}
+
+/* Eliminăm spațiul de sus */
+.w-full.overflow-hidden.py-0 {
+	padding-top: 0;
+	padding-bottom: 0.5rem;
+}
